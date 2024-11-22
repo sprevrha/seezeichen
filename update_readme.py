@@ -20,7 +20,7 @@ def convert_to_md(milestones):
     milestones_section = ""
     for milestone in milestones:
         status = "[x]" if milestone['state'] == 'closed' else "[ ]"
-        milestones_section += f"- {status} **{milestone['title']}**: {milestone['description']} (Due: {milestone['due_on']})\n"
+        milestones_section += f"- {status} [#{milestone['number']}][{milestone['html_url']}] **{milestone['title']}**,  (due: {milestone['due_on']})\n"
     return milestones_section
 
 def main():
@@ -42,11 +42,11 @@ def main():
     _, _, rest_of_readme = after_begin_comment.partition(end_comment) 
     
     # Combine the content with the updated milestones section
-    new_readme_content = before_milestones + heading + new_milestones_md + end_comment + rest_of_readme.split('\n', 1)[1]
+    new_readme_content = before_milestones + heading + '\n' + new_milestones_md + end_comment + '\n' + rest_of_readme
 
     # Write the updated content back to the README file
     with open('README.md', 'w', encoding='utf-8') as f:
         f.write(new_readme_content)
     
-if __name__ == "__file__":
+if __name__ == "__main__":
     main()
