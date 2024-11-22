@@ -20,7 +20,7 @@ def convert_to_md(milestones):
     milestones_section = ""
     for milestone in milestones:
         status = "[x]" if milestone['state'] == 'closed' else "[ ]"
-        milestones_section += f"- {status} [#{milestone['number']}][{milestone['html_url']}] **{milestone['title']}**,  (due: {milestone['due_on']})\n"
+        milestones_section += f"- {status} [#{milestone['number']}]({milestone['html_url']}) **{milestone['title']}**,  (due: {milestone['due_on']})\n"
     return milestones_section
 
 def main():
