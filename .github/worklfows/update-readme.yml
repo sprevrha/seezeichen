@@ -1,0 +1,25 @@
+# Workflow script to include Github Milestones in the README
+name: Update README with Milestones
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs daily at midnight
+  push:
+    branches:
+      - main
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Fetch milestones
+        id: fetch-milestones
+        run: |
+          curl -s https://api.github.com/repos/sprevrha/seezeichen/milestones > milestones.json
+
+      - name: Update README
+        run: |
+          python update_readme.py
