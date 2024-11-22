@@ -157,14 +157,9 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 
 ## Milestones
-- [x] Add draft README, logo, changelog, license
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+- [ ] [#1][https://github.com/sprevrha/seezeichen/milestone/1] **Set up empty react-native app**,  (due: 2024-11-24T08:00:00Z)
 <!-- MILESTONES END -->
+
 
 See the [open issues](https://github.com/sprevrha/seezeichen/issues) for a full list of proposed features (and known issues).
 
