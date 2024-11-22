@@ -30,7 +30,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/sprevrha/seezeichen">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/seezeichen-logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Seezeichen Lern-App</h3>
@@ -122,20 +122,20 @@ This is an example of how to list things you need to use the software and how to
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+<!-- * Get a free API Key at [https://example.com](https://example.com) -->
+* Clone the repo
    ```sh
    git clone https://github.com/github_username/repo_name.git
    ```
-3. Install NPM packages
+<!-- * Install NPM packages
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
+* Enter your API in `config.js`
    ```js
    const API_KEY = 'ENTER YOUR API';
-   ```
-5. Change git remote url to avoid accidental pushes to base project
+   ``` -->
+* Change git remote url to avoid accidental pushes to base project
    ```sh
    git remote set-url origin github_username/repo_name
    git remote -v # confirm the changes
@@ -159,7 +159,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add Changelog
+- [x] Add draft README, logo, changelog, license
 - [x] Add back to top links
 - [ ] Add Additional Templates w/ Examples
 - [ ] Add "components" document to easily copy & paste sections of the readme
@@ -250,7 +250,7 @@ Use this space to list resources you find helpful and would like to give credit 
 [license-shield]: https://img.shields.io/github/license/sprevrha/seezeichen.svg?style=for-the-badge
 [license-url]: https://github.com/sprevrha/seezeichen/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
+[linkedin-url]: https://linkedin.com/in/sven-prevrhal-476bb15/
 [product-screenshot]: images/seezeichen_logo.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
