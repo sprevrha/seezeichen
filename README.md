@@ -157,8 +157,9 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 
 ## Milestones
-- [ ] [#1][https://github.com/sprevrha/seezeichen/milestone/1] **Set up empty react-native app**,  (due: 2024-11-24T08:00:00Z)
+- [ ] [#1](https://github.com/sprevrha/seezeichen/milestone/1) **Set up empty react-native app**,  (due: 2024-11-24T08:00:00Z)
 <!-- MILESTONES END -->
+
 
 
 See the [open issues](https://github.com/sprevrha/seezeichen/issues) for a full list of proposed features (and known issues).
